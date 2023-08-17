@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src="https://precisegram.com/wp-content/uploads/2023/07/logo_3.svg" style="width:120px !important;max-wo"> &nbsp;精思數位',
+    'logo' => '<img src="https://precisegram.com/wp-content/uploads/2023/07/logo_3.svg" style="width:120px !important;max-width: none"> &nbsp;精思數位',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<img src="/vendor/dcat-admin/images/logo.png">',
+    'logo-mini' => '<img src="https://precisegram.com/wp-content/uploads/2023/06/logo.svg">',
 
     /*
     |--------------------------------------------------------------------------
