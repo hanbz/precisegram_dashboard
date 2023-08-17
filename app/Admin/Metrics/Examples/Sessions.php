@@ -22,7 +22,7 @@ class Sessions extends Bar
         // 卡片内容宽度
         $this->contentWidth(5, 7);
         // 标题
-        $this->title('Avg Sessions');
+        $this->title('討論數成長情況');
         // 设置下拉选项
         $this->dropdown([
             '7' => 'Last 7 Days',
@@ -54,7 +54,7 @@ class Sessions extends Bar
             case '7':
             default:
                 // 卡片内容
-                $this->withContent('2.7k', '+5.2%');
+                $this->withContent('3,540', '+40%');
 
                 // 图表数据
                 $this->withChart([

@@ -40,13 +40,13 @@ class ProductOrders extends Round
             case '7':
             default:
                 // 卡片内容
-                $this->withContent(23043, 14658, 4758);
+                $this->withContent('43.1%', '26.0%', '30.9%');
 
                 // 图表数据
-                $this->withChart([70, 52, 26]);
+                $this->withChart([43.1, 26.0, 30.9]);
 
                 // 总数
-                $this->chartTotal('Total', 344);
+                $this->chartTotal('Total', 23043);
         }
     }
 

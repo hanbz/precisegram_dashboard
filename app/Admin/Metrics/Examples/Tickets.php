@@ -42,11 +42,11 @@ class Tickets extends RadialBar
             case '7':
             default:
                 // 卡片内容
-                $this->withContent(162);
+                $this->withContent(3540);
                 // 卡片底部
-                $this->withFooter(29, 63, '30');
+                $this->withFooter(2667, 836, 37);
                 // 图表数据
-                $this->withChart(83);
+                $this->withChart(76.4);
         }
     }
 
@@ -98,15 +98,15 @@ HTML
             <<<HTML
 <div class="d-flex justify-content-between p-1" style="padding-top: 0!important;">
     <div class="text-center">
-        <p>回文數量</p>
+        <p>理性討論數</p>
         <span class="font-lg-1">{$new}</span>
     </div>
     <div class="text-center">
-        <p>留言數量</p>
+        <p>負向討論數</p>
         <span class="font-lg-1">{$open}</span>
     </div>
     <div class="text-center">
-        <p>表情數量</p>
+        <p>正向討論數</p>
         <span class="font-lg-1">{$response}</span>
     </div>
 </div>
