@@ -1,0 +1,97 @@
+/* 標頭 */
+
+h1 {
+    text-align: center;
+}
+
+/* 數據摘要 */
+
+.data-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-range {
+    padding: 10px;
+}
+
+.current-time {
+    padding: 10px;
+    text-align: right;
+}
+
+/* 排名 */
+
+.rankings {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+/* 熱門文章 */
+
+.articles {
+    margin: 20px auto;
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.interaction, .heat {
+    float: right;
+}
+
+/* 圖表 */
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.smile-pro-chart, .zeiss-chart {
+    width: 48%;
+}
+
+img {
+    width: 100%;
+}
+
+/* 負面文章排名 */
+
+.negative-rankings {
+    margin: 20px auto;
+    width: 80%;
+}
+
