@@ -524,7 +524,7 @@
                 <div class="flex justify-between">
                     <div>
                         <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">28,739</h5>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">企業品牌總聲量</p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Gclinic 企業品牌總聲量</p>
                     </div>
                     <div
                         class="flex items-center px-2.5 py-0.5 text-base font-semibold text-green-500 dark:text-green-500 text-center">
@@ -555,13 +555,13 @@
                             {{--                            </svg>--}}
                         </button>
                         <!-- Dropdown menu -->
-                        <div id="lastDaysdropdown"
-                             class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                                aria-labelledby="dropdownDefaultButton">
+{{--                        <div id="lastDaysdropdown"--}}
+{{--                             class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">--}}
+{{--                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"--}}
+{{--                                aria-labelledby="dropdownDefaultButton">--}}
 
-                            </ul>
-                        </div>
+{{--                            </ul>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
